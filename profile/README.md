@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[opspresso.com](https://opspresso.com) | [app.toast.sh](https://app.toast.sh)
+[opspresso.com](https://opspresso.com) | [toast.sh](https://toast.sh)
 
 <!--
 
