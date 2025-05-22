@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://opspresso.com" target="_blank">
-    <img src="https://opspresso.com/docs/images/opspresso.png" alt="Opspresso Logo" width="120"/>
+    <img src="https://opspresso.com/images/opspresso.png" alt="Opspresso Logo" width="120"/>
   </a>
   <h1>Opspresso</h1>
 </div>
@@ -36,11 +36,3 @@ Opspresso는 "Operations"와 "Espresso"의 합성어로, 운영의 정밀함과 
 ### 🔗 관련 링크
 - **Opspresso 홈페이지**: [opspresso.com](https://opspresso.com)
 - **Toast 서비스**: [toast.sh](https://toast.sh)
-
-<!--
-### 🌈 기여하고 싶으신가요?
-(기여 가이드라인 링크 또는 내용 추가)
-
-### 👩‍💻 유용한 자료
-(문서 링크 또는 기타 자료 추가)
--->
