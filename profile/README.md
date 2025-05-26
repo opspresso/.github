@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://opspresso.com" target="_blank">opspresso.com</a> | <a href="https://toast.sh" target="_blank">toast.sh</a>
+  <a href="https://opspresso.com" target="_blank">opspresso.com</a> | <a href="https://toastapp.io" target="_blank">toastapp.io</a>
 </p>
 
 ---
@@ -31,11 +31,11 @@ Opspresso is a portmanteau of "Operations" and "Espresso," aiming to provide Dev
 **Toast** is a desktop app and web service designed to enhance productivity.
 - **Authentication and Subscription Management**: A web-based system for Toast App users to manage authentication and subscriptions.
 - **VibeCoding**: Toast is being developed using the VibeCoding methodology.
-- **Learn More**: [toast.sh](https://toast.sh)
+- **Learn More**: [toastapp.io](https://toastapp.io)
 
 ### 🔗 Related Links
 - **Opspresso Homepage**: [opspresso.com](https://opspresso.com)
-- **Toast Service**: [toast.sh](https://toast.sh)
+- **Toast Service**: [toastapp.io](https://toastapp.io)
 
 <!--
 ### 🌈 Want to contribute?
