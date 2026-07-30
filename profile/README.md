@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://opspresso.com" target="_blank">
-    <img src="https://opspresso.com/images/opspresso.png" alt="Opspresso Logo" width="120"/>
+    <img src="https://opspresso.com/images/opspresso.png" alt="OpsPresso Logo" width="120"/>
   </a>
-  <h1>Opspresso</h1>
+  <h1>OpsPresso</h1>
 </div>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 ---
 
-## 👋 Hi there! We are Opspresso.
+## 👋 Hi there! We are OpsPresso.
 
 Opspresso is a portmanteau of "Operations" and "Espresso," aiming to provide DevOps automation and productivity enhancement solutions by combining the precision of operations with the refreshing simplicity of espresso.
 
