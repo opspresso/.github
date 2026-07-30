@@ -31,16 +31,8 @@ Opspresso is a portmanteau of "Operations" and "Espresso," aiming to provide Dev
 **Toast** is a desktop app and web service designed to enhance productivity.
 - **Authentication and Subscription Management**: A web-based system for Toast App users to manage authentication and subscriptions.
 - **VibeCoding**: Toast is being developed using the VibeCoding methodology.
-- **Learn More**: [toastapp.io](https://toastapp.io)
+- **Learn More**: [app.toast.sh](https://app.toast.sh)
 
 ### 🔗 Related Links
 - **Opspresso Homepage**: [opspresso.com](https://opspresso.com)
-- **Toast Service**: [toastapp.io](https://toastapp.io)
-
-<!--
-### 🌈 Want to contribute?
-(Add contribution guideline link or content here)
-
-### 👩‍💻 Useful Resources
-(Add documentation link or other resources here)
--->
+- **Toast Service**: [app.toast.sh](https://app.toast.sh)
