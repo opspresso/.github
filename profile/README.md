@@ -1,38 +1,30 @@
 <div align="center">
-  <a href="https://opspresso.com" target="_blank">
-    <img src="https://opspresso.com/images/opspresso.png" alt="OpsPresso Logo" width="120"/>
+  <a href="https://opspresso.com">
+    <img src="https://opspresso.com/images/opspresso.png" alt="OpsPresso Logo" width="120">
   </a>
   <h1>OpsPresso</h1>
+
+  <p><strong>Combining the precision of operations with the refreshing simplicity of espresso.</strong></p>
+
+  <p>
+    <a href="https://opspresso.com">Website</a> ·
+    <a href="https://app.toast.sh">Toast</a> ·
+    <a href="https://vibemon.io">VibeMon</a>
+  </p>
 </div>
 
-<p align="center">
-  <strong>We are a group of experts in IaC, GitOps, DevOps, SRE, and AI. We are developing Toast with VibeCoding.</strong>
-</p>
+## About us
 
-<p align="center">
-  <a href="https://opspresso.com" target="_blank">opspresso.com</a> | <a href="https://toastapp.io" target="_blank">toastapp.io</a>
-</p>
+We are a group of experts in IaC, GitOps, DevOps, SRE, and AI. We build developer tools that make everyday workflows simpler and more visible.
 
----
+Our work focuses on automated deployment, infrastructure as code, and security-first operations.
 
-## 👋 Hi there! We are OpsPresso.
+## Our products
 
-Opspresso is a portmanteau of "Operations" and "Espresso," aiming to provide DevOps automation and productivity enhancement solutions by combining the precision of operations with the refreshing simplicity of espresso.
+### [Toast](https://app.toast.sh)
 
-### 🚀 Key Areas of Interest
-- **Infrastructure as Code (IaC)**
-- **GitOps**
-- **DevOps Automation**
-- **Site Reliability Engineering (SRE)**
-- **Artificial Intelligence (AI)**
-- **Productivity Tool Development**
+Toast is a customizable shortcut launcher for macOS and Windows. Summon it with a global shortcut to run commands, open files and URLs, execute scripts, chain actions, or launch applications from your own pages of buttons. It also includes text expansion snippets, light and dark themes, and cloud sync across devices.
 
-### 🛠️ Current Main Project: Toast
-**Toast** is a desktop app and web service designed to enhance productivity.
-- **Authentication and Subscription Management**: A web-based system for Toast App users to manage authentication and subscriptions.
-- **VibeCoding**: Toast is being developed using the VibeCoding methodology.
-- **Learn More**: [app.toast.sh](https://app.toast.sh)
+### [VibeMon](https://vibemon.io)
 
-### 🔗 Related Links
-- **Opspresso Homepage**: [opspresso.com](https://opspresso.com)
-- **Toast Service**: [app.toast.sh](https://app.toast.sh)
+VibeMon is a real-time status monitor for AI coding assistants. A pixel art character in your system tray shows whether your agent is thinking, working, or waiting, together with the active project, tool, model, and context usage. It supports Claude Code, Codex, Kiro, and OpenClaw, and can also display the same status on ESP32 hardware.
