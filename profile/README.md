@@ -9,7 +9,8 @@
   <p>
     <a href="https://opspresso.com">Website</a> ·
     <a href="https://app.toast.sh">Toast</a> ·
-    <a href="https://vibemon.io">VibeMon</a>
+    <a href="https://vibemon.io">VibeMon</a> ·
+    <a href="https://agetndure.com">AgentDure</a>
   </p>
 </div>
 
