@@ -1,23 +1,30 @@
 <div align="center">
   <a href="https://opspresso.com">
-    <img src="https://raw.githubusercontent.com/opspresso/opspresso/main/docs/images/opspresso.png" alt="OpsPresso Logo" width="150">
+    <img src="https://opspresso.com/images/opspresso.png" alt="OpsPresso logo" width="120">
   </a>
-
-  # OpsPresso
-
-  **Combining the precision of operations with the refreshing simplicity of espresso.**
-
-  [Website](https://opspresso.com) · [GitHub](https://github.com/opspresso)
+  <h1>OpsPresso</h1>
+  <p><strong>Platforms and tools for AI agents.</strong></p>
 </div>
 
-We are a group of experts in IaC, GitOps, DevOps, SRE, and AI. We build developer tools that make everyday workflows simpler and more visible.
+OpsPresso builds services for operating AI agents and tools for the people building them.
 
-## Our products
+**[Organization profile](profile/README.md)** · **[Website](https://opspresso.com)** · **[Repositories](https://github.com/orgs/opspresso/repositories)**
 
-### [Toast](https://app.toast.sh)
+## What this repository contains
 
-A customizable shortcut launcher for macOS and Windows. Use a global shortcut to run commands, open files and URLs, execute scripts, chain actions, or launch applications from your own pages of buttons. Toast also provides text expansion snippets, light and dark themes, and cloud sync across devices.
+| File | Purpose |
+| --- | --- |
+| [`profile/README.md`](profile/README.md) | Public introduction and product overview shown on the [OpsPresso organization page](https://github.com/opspresso). |
+| [`README.md`](README.md) | Repository purpose and instructions for maintaining that profile. |
 
-### [VibeMon](https://vibemon.io)
+The profile groups Studio, Memory, Librio, and Forge under **Agent Platform**, and VibeMon, romty, and Toast under **Developer Tools**. See the [profile](profile/README.md) for product descriptions and destinations.
 
-A real-time status monitor for AI coding assistants. A pixel art character in your system tray shows whether your agent is thinking, working, or waiting, together with project, tool, model, and context usage. VibeMon supports Claude Code, Codex, Kiro, and OpenClaw, and can also display status on ESP32 hardware.
+## Maintaining the profile
+
+- Check each product's current documentation before changing its description. Keep capabilities and limits accurate.
+- Keep names, product groups, and destinations consistent with the [website source](https://github.com/opspresso/opspresso).
+- Use public website links. Do not link visitors to repositories that require private access.
+- Product marks are served from `https://opspresso.com/images/`. Publish a new mark on the website before referencing it here.
+- Check Markdown rendering, image loading, and links before merging. After merging to `main`, verify the public organization profile.
+
+No build or package installation is required. This repository has no configured lint or automated test suite; use `git diff --check` and inspect the rendered Markdown.
