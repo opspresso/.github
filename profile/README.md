@@ -12,43 +12,51 @@
   </p>
 </div>
 
-Build and operate AI agents with memory, knowledge, and isolated workspaces. Keep everyday work moving with monitoring, terminal, and launcher tools.
+Build and operate AI agents with governed models, memory, knowledge, and isolated workspaces. Keep everyday work moving with monitoring, terminal, and launcher tools.
 
 ## Agent Platform
 
-Dedicated services for agent orchestration, durable context, grounded knowledge, and isolated execution. Deploy them in your own environment and connect the services you need.
+Dedicated services for agent orchestration, model routing, durable context, grounded knowledge, and isolated execution. Deploy them in your own environment and connect the services you need.
 
 ### <img src="https://opspresso.com/images/agent-studio.png" alt="" width="26" height="26" align="top"> [Agent Studio](https://studio.agrt.dev)
 
-**Configure agents. Run and inspect their work.**
+**Build agents, run them anywhere, review their work.**
 
-Connect models, tools, and skills, then run agents through chat, APIs, messaging, or automation. Manage access, tool approvals, traces, and daily or monthly spending limits.
+Configure agents with models approved in Agent Models, skills, MCP tools, and sub-agents. Run them from chat, APIs, Slack, Teams, Telegram, webhooks, or schedules. Control access, tool approvals, and spending limits, and review each run's trace.
 
-<sub>MCP tools · Tool approvals · Live traces · Daily &amp; monthly budgets</sub>
+<sub>MCP tools · Tool approvals · Run traces · Spending limits</sub>
+
+### <img src="https://opspresso.com/images/agent-models.png" alt="" width="26" height="26" align="top"> [Agent Models](https://models.agrt.dev)
+
+**One gateway for every model your agents call.**
+
+Connect OpenAI, Anthropic, Google, xAI, Bedrock, OpenRouter, or self-hosted endpoints with encrypted keys. Approve the models agents may call, route requests in each provider's native format, and track usage and cost by model, user, agent, and service.
+
+<sub>Provider routing · Model approval · Usage &amp; cost ledger · Public catalog</sub>
 
 ### <img src="https://opspresso.com/images/agent-memory.png" alt="" width="26" height="26" align="top"> [Agent Memory](https://memory.agrt.dev)
 
 **Carry useful context across agents and sessions.**
 
-Store rules, preferences, decisions, facts, and lessons with their sources. Recall them across coding clients, control who can access them, and hand work from one session to another.
+Save rules, preferences, decisions, facts, and lessons with their sources. Recall them in Studio, Claude Code, and Codex, and share them by user, team, or organization. Nightly Dreaming merges and promotes memories, and every change keeps a version.
 
-<sub>Durable context · Scoped sharing · Version history · Client handoffs</sub>
+<sub>Durable context · Scoped sharing · Nightly Dreaming · Client handoffs</sub>
 
 ### <img src="https://opspresso.com/images/agent-librio.png" alt="" width="26" height="26" align="top"> [Agent Librio](https://librio.agrt.dev)
 
 **Give agents knowledge they can trace to a source.**
 
-Collect documents and recordings, produce transcripts and meeting notes, and retrieve evidence from accessible source material. Keep knowledge graphs connected to the documents behind them.
+Ingest documents and recordings, then produce transcripts and meeting notes. Search text and the knowledge graph with links to source evidence. Track decisions, tasks, and risks as objects, and review AI-extracted knowledge before it is applied.
 
-<sub>Document search · Transcription · Meeting notes · Knowledge graphs</sub>
+<sub>Source evidence · Meeting notes · Knowledge graph · Ontology objects</sub>
 
 ### <img src="https://opspresso.com/images/agent-forge.png" alt="" width="26" height="26" align="top"> [Agent Forge](https://forge.agrt.dev)
 
 **Give agent work a place to run.**
 
-Run commands and coding agents in isolated sandboxes while retaining their workspaces and sessions. Inspect logs, pause and resume work, and manage Git changes through the console or API.
+Run commands and Codex, Claude, or OpenCode sessions in Docker or Kubernetes sandboxes. Workspaces and sessions persist across suspend and resume. Connect GitHub, push branches and pull requests, and approve merges, releases, and deploys after reviewing the diff.
 
-<sub>Persistent workspaces · Isolated execution · Coding CLI sessions · Git workflows</sub>
+<sub>Persistent workspaces · Coding CLI sessions · Workspace profiles · Approved releases</sub>
 
 ## Developer Tools
 
@@ -58,25 +66,25 @@ Monitor your systems, keep coding sessions running, and make everyday actions ea
 
 **Monitor your agents, accounts, and infrastructure.**
 
-Follow coding-agent activity alongside usage from multiple accounts and metrics from servers, Kubernetes clusters, DGX Spark hosts, and custom resources. View recent trends on desktop or web, with a character companion and an optional ESP32 display.
+Follow coding-agent activity and plan usage across accounts, with metrics from servers, Kubernetes clusters, DGX Spark hosts, and custom resources. View the same workspace on desktop, web, iPhone, Apple Watch, Android, or an ESP32 display, and pin it to widgets.
 
-<sub>Desktop · Web · ESP32</sub>
+<sub>Desktop · Web · iOS · Android · ESP32 · Coding agent activity · Plan usage limits · Resource metrics · Widgets</sub>
 
 ### <img src="https://opspresso.com/images/romty.png" alt="" width="26" height="26" align="top"> [romty](https://romty.dev)
 
 **Close the terminal. The shells keep running.**
 
-Keep coding agents running on an always-on machine after you close the terminal or disconnect SSH. Reconnect to the same workspace, review retained output, and see which agents are working or waiting for input.
+Keep coding agents running on an always-on machine after you close the terminal or disconnect SSH. Reconnect to the same workspace tabs, search retained output, and see which agents are working, waiting for approval, or done.
 
-<sub>macOS · Linux · Persistent shell sessions · Agent activity status</sub>
+<sub>macOS · Linux · Persistent sessions · Agent resume · Searchable scrollback · Agent status</sub>
 
 ### <img src="https://opspresso.com/images/toast.png" alt="" width="26" height="26" align="top"> [Toast](https://toastapp.dev)
 
 **A launcher you summon with one shortcut.**
 
-A global hotkey opens your own pages of buttons. Run commands, open files and URLs, execute scripts, chain actions, or launch applications. Use text snippets and sync your setup across devices.
+A global hotkey opens your own pages of buttons. Run commands, open files and URLs, run scripts, chain actions, or launch applications. On macOS, snippets expand typed keywords in any app. Optional Cloud Sync keeps pages and snippets in step across devices.
 
-<sub>macOS · Windows · Custom button pages · Text snippets · Cloud sync</sub>
+<sub>macOS · Windows · Custom button pages · Script actions · Text expansion · Cloud sync</sub>
 
 ## Built on operational experience
 
