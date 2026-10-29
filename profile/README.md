@@ -12,11 +12,11 @@
   </p>
 </div>
 
-Build and operate AI agents with governed models, memory, knowledge, and isolated workspaces. Keep everyday work moving with monitoring, terminal, and launcher tools.
+Build agents and take apps from an idea to deployment. Connect model routing, memory, knowledge, coding workspaces, and app delivery. Keep everyday work moving with monitoring, terminal, and launcher tools.
 
 ## Agent Platform
 
-Dedicated services for agent orchestration, model routing, durable context, grounded knowledge, and isolated execution. Deploy them in your own environment and connect the services you need.
+Six independent services own their settings, data, permissions, and consoles. Studio provides identity and orchestration, connecting agents to Memory, Knowledge, Forge, and Delivery through MCP. Models provides the central model gateway.
 
 ### <img src="https://opspresso.com/images/agent-studio.png" alt="" width="26" height="26" align="top"> [Agent Studio](https://studio.agrt.dev)
 
@@ -42,7 +42,7 @@ Save rules, preferences, decisions, facts, and lessons with their sources. Recal
 
 <sub>Durable context · Scoped sharing · Nightly Dreaming · Client handoffs</sub>
 
-### <img src="https://opspresso.com/images/agent-librio.png" alt="" width="26" height="26" align="top"> [Agent Librio](https://librio.agrt.dev)
+### <img src="https://opspresso.com/images/agent-knowledge.png" alt="" width="26" height="26" align="top"> [Agent Knowledge](https://knowledge.agrt.dev)
 
 **Give agents knowledge they can trace to a source.**
 
@@ -54,9 +54,31 @@ Ingest documents and recordings, then produce transcripts and meeting notes. Sea
 
 **Give agent work a place to run.**
 
-Run commands and Codex, Claude, or OpenCode sessions in Docker or Kubernetes sandboxes. Workspaces and sessions persist across suspend and resume. Connect GitHub, push branches and pull requests, and approve merges, releases, and deploys after reviewing the diff.
+Run commands and Codex, Claude, or OpenCode sessions in Docker or Kubernetes sandboxes. Keep workspaces and sessions across suspend and resume. Manage profiles, GitHub connections, execution history, and protected Git actions in Forge, with approvals tied to the work being published.
 
-<sub>Persistent workspaces · Coding CLI sessions · Workspace profiles · Approved releases</sub>
+<sub>Persistent workspaces · Coding CLI sessions · Workspace profiles · Git approvals</sub>
+
+### <img src="https://opspresso.com/images/agent-delivery.png" alt="" width="26" height="26" align="top"> [Agent Delivery](https://delivery.agrt.dev)
+
+**Take the apps agents build into production.**
+
+Apply `application.yaml` to provision app resources and deliver secrets to workspaces and deployed apps. Build and test with Argo Workflows, deploy through GitOps, and promote the same release across environments. Review approvals, deployment logs, and rollback targets in Delivery. Enter secret values in its console, outside chat.
+
+<sub>App resources · Secret delivery · Build &amp; deploy · Promote &amp; rollback</sub>
+
+### Shared foundations
+
+- **agent-platform** — Shared architecture, service contracts, acceptance scenarios, and reusable CI workflows. It contains no service runtime.
+- **[agent-plugins](https://github.com/opspresso/agent-plugins)** — Reusable task skills and MCP declarations for coding, research, design, and operations. Connections and permissions remain with the host and services.
+
+### From request to running app
+
+1. **Plan in Studio.** Use approved models, recall decisions from Memory, and find source material in Knowledge.
+2. **Develop in Forge.** Write code and `application.yaml`, run checks, and open a pull request. Review protected Git actions in Forge.
+3. **Provision with Delivery.** Apply the app declaration and create environment resources. Enter secrets in the Delivery console, outside chat.
+4. **Deploy and operate with Delivery.** Build and test with Argo Workflows, deploy through GitOps, promote the same release with the required approval, and inspect logs or roll back.
+
+Explore the [interactive platform map and workflow](https://opspresso.com/#platform).
 
 ## Developer Tools
 
@@ -90,7 +112,7 @@ A global hotkey opens your own pages of buttons. Run commands, open files and UR
 
 Backend development and SRE experience guide how we build, ship, and operate agent systems.
 
-- **Agent platforms** — Models, tools, memory, knowledge, and workspaces with clear responsibilities.
+- **Agent platforms** — Orchestration, models, memory, knowledge, workspaces, and app delivery with clear responsibilities.
 - **IaC &amp; GitOps** — Infrastructure defined in code, reviewed in Git, and deployed consistently.
 - **DevOps &amp; SRE** — A shorter path from a commit to production, with reliability that is measured.
 
