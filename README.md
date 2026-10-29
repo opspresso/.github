@@ -17,11 +17,12 @@ OpsPresso builds services for operating AI agents and tools for the people build
 | [`profile/README.md`](profile/README.md) | Public introduction and product overview shown on the [OpsPresso organization page](https://github.com/opspresso). |
 | [`README.md`](README.md) | Repository purpose and instructions for maintaining that profile. |
 
-The profile groups Studio, Memory, Librio, and Forge under **Agent Platform**, and VibeMon, romty, and Toast under **Developer Tools**. See the [profile](profile/README.md) for product descriptions and destinations.
+The profile groups Studio, Models, Memory, Knowledge, Forge, and Delivery under **Agent Platform**, with `agent-platform` and `agent-plugins` as shared foundations. VibeMon, romty, and Toast sit under **Developer Tools**. See the [profile](profile/README.md) for product descriptions and destinations.
 
 ## Maintaining the profile
 
 - Check each product's current documentation before changing its description. Keep capabilities and limits accurate.
+- Keep service ownership and the plan → develop → provision → deploy workflow consistent with the current implementation. Do not describe the Models HTTP integration as a completed MCP migration.
 - Keep names, product groups, and destinations consistent with the [website source](https://github.com/opspresso/opspresso).
 - Use public website links. Do not link visitors to repositories that require private access.
 - Product marks are served from `https://opspresso.com/images/`. Publish a new mark on the website before referencing it here.
