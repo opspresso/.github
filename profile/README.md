@@ -16,7 +16,7 @@ Build agents and take apps from an idea to deployment. Connect model routing, me
 
 ## Agent Platform
 
-Six independent services own their settings, data, permissions, and consoles. Studio provides identity and orchestration, connecting agents to Memory, Knowledge, Forge, and Delivery through MCP. Models provides the central model gateway.
+Six independent services own their settings, data, permissions, and consoles. Studio provides identity and orchestration, connecting agents to Memory, Knowledge, Forge, and Runway through MCP. Models provides the central model gateway.
 
 ### <img src="https://opspresso.com/images/agent-studio.png" alt="" width="26" height="26" align="top"> [Agent Studio](https://studio.agrt.dev)
 
@@ -58,11 +58,11 @@ Run commands and Codex, Claude, or OpenCode sessions in Docker or Kubernetes san
 
 <sub>Persistent workspaces · Coding CLI sessions · Workspace profiles · Git approvals</sub>
 
-### <img src="https://opspresso.com/images/agent-delivery.png" alt="" width="26" height="26" align="top"> [Agent Delivery](https://delivery.agrt.dev)
+### <img src="https://opspresso.com/images/agent-runway.png" alt="" width="26" height="26" align="top"> [Agent Runway](https://runway.agrt.dev)
 
 **Take the apps agents build into production.**
 
-Apply `application.yaml` to provision app resources and deliver secrets to workspaces and deployed apps. Build and test with Argo Workflows, deploy through GitOps, and promote the same release across environments. Review approvals, deployment logs, and rollback targets in Delivery. Enter secret values in its console, outside chat.
+Apply `application.yaml` to provision app resources and deliver secrets to workspaces and deployed apps. Build and test with Argo Workflows, deploy through GitOps, and promote the same release across environments. Review approvals, deployment logs, and rollback targets in Runway. Enter secret values in its console, outside chat.
 
 <sub>App resources · Secret delivery · Build &amp; deploy · Promote &amp; rollback</sub>
 
@@ -75,8 +75,8 @@ Apply `application.yaml` to provision app resources and deliver secrets to works
 
 1. **Plan in Studio.** Use approved models, recall decisions from Memory, and find source material in Knowledge.
 2. **Develop in Forge.** Write code and `application.yaml`, run checks, and open a pull request. Review protected Git actions in Forge.
-3. **Provision with Delivery.** Apply the app declaration and create environment resources. Enter secrets in the Delivery console, outside chat.
-4. **Deploy and operate with Delivery.** Build and test with Argo Workflows, deploy through GitOps, promote the same release with the required approval, and inspect logs or roll back.
+3. **Provision with Runway.** Apply the app declaration and create environment resources. Enter secrets in the Runway console, outside chat.
+4. **Deploy and operate with Runway.** Build and test with Argo Workflows, deploy through GitOps, promote the same release with the required approval, and inspect logs or roll back.
 
 Explore the [interactive platform map and workflow](https://opspresso.com/#platform).
 
