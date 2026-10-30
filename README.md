@@ -17,7 +17,7 @@ OpsPresso builds services for operating AI agents and tools for the people build
 | [`profile/README.md`](profile/README.md) | Public introduction and product overview shown on the [OpsPresso organization page](https://github.com/opspresso). |
 | [`README.md`](README.md) | Repository purpose and instructions for maintaining that profile. |
 
-The profile groups Studio, Models, Memory, Knowledge, Forge, and Delivery under **Agent Platform**, with `agent-platform` and `agent-plugins` as shared foundations. VibeMon, romty, and Toast sit under **Developer Tools**. See the [profile](profile/README.md) for product descriptions and destinations.
+The profile groups Studio, Models, Memory, Knowledge, Forge, and Runway under **Agent Platform**, with `agent-platform` and `agent-plugins` as shared foundations. VibeMon, romty, and Toast sit under **Developer Tools**. See the [profile](profile/README.md) for product descriptions and destinations.
 
 ## Maintaining the profile
 
